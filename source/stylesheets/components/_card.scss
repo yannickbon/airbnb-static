@@ -23,19 +23,22 @@
   bottom: 10px;
   left: 10px;
 }
-.card-description h2 {
-  font-size: 22px;
+.card-description {
+  h2 {
+    font-size: 22px;
+  }
+  p {
+    font-size: 15px;
+  }
 }
-.card-description p {
-  font-size: 15px;
-}
+
 .card-link {
   position: absolute;
   top: 0;
   bottom: 0;
   width: 100%;
   z-index:2;
-  background: black;
+  background: $black;
   opacity: 0;
 }
 .card-link:hover{
